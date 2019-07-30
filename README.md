@@ -1,7 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-<!-- badges: start --> [![Codecov test
+<!-- badges: start -->
+
+[![Codecov test
 coverage](https://codecov.io/gh/VictorSuarezL/imaggar/branch/master/graph/badge.svg)](https://codecov.io/gh/VictorSuarezL/imaggar?branch=master)
 <!-- badges: end -->
 
