@@ -1,6 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<!-- badges: start --> [![Codecov test
+coverage](https://codecov.io/gh/VictorSuarezL/imaggar/branch/master/graph/badge.svg)](https://codecov.io/gh/VictorSuarezL/imaggar?branch=master)
+<!-- badges: end -->
+
 # imaggar
 
 R client for accessing IMAGGA’s REST API.
@@ -32,8 +36,8 @@ With the code below we call IMAGGA API to tag the lion image:
 ``` r
 library(imaggar)
 
-api_key <- "acc_f0273ebca9e09dc"
-api_secret <- "c2340eed126f1870dc3736063f546b83"
+api_key <- "xxx_f0273ebca9e09dc"
+api_secret <- "xxx40eed126f1870dc3736063f546b83"
 
 image_path <- "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg"
 

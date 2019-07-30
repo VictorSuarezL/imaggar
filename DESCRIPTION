@@ -8,9 +8,11 @@ Authors@R:
            email = "victor.sanz@uca.es",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: R client for accessing IMAGGA’s REST API.
+Depends: R (>= 2.10) 
 License: GPL-3
 Suggests: 
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    covr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
