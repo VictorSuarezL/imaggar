@@ -30,11 +30,35 @@ And the development version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("VictorSuarezL/imaggar")
 ```
-## Example
+## Tagger Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use `ima_tag` function:
 
-```{r example}
-library(imaggar)
-## basic example code
+```{r echo=FALSE, message=TRUE, warning=TRUE}
+magick::image_read("https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg")
 ```
+
+With the code below we call IMAGGA API to tag the lion image:
+```{r example, eval=FALSE}
+library(imaggar)
+
+api_key <- "acc_f0273ebca9e09dc"
+api_secret <- "c2340eed126f1870dc3736063f546b83"
+
+image_path <- "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg"
+
+ima_tag(image_path, api_key = api_key, api_secret = api_secret)
+```
+
+```{r load data, include=FALSE}
+load("./R/sysdata.rda")
+
+tag_output <- tibble::as_tibble(tag_output)
+```
+
+```{r echo=FALSE}
+tag_output
+```
+
+
+
