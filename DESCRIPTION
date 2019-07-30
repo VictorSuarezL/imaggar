@@ -1,5 +1,5 @@
 Package: imaggar
-Title: This package contains function to call to IMAGGA API.
+Title: R client for accessing IMAGGA’s REST API.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Victor",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "victor.sanz@uca.es",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: blablabla
+Description: R client for accessing IMAGGA’s REST API.
 License: GPL-3
 Suggests: 
     testthat (>= 2.1.0)
