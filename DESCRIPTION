@@ -1,19 +1,26 @@
 Package: imaggar
-Title: What the Package Does (One Line, Title Case)
+Title: This package contains function to call to IMAGGA API.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Victor",
+           family = "Sanz",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "victor.sanz@uca.es",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: blablabla
 License: GPL-3
 Suggests: 
-    testthat
+    testthat (>= 2.1.0)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 URL: https://github.com/VictorSuarezL/imaggar
 BugReports: https://github.com/VictorSuarezL/imaggar/issues
+Imports: 
+    dplyr,
+    httr,
+    jsonlite,
+    assertthat,
+    magick,
+    purrr
