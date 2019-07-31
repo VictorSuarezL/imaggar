@@ -13,7 +13,9 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www
 
 # imaggar
 
-R client for accessing IMAGGA’s REST API.
+R client for accessing IMAGGA’s REST API. Do you want to know how to
+access IMAGGA API from R? Here is your package. `imaggar` is an
+easygoing and tidy friendly package.
 
 ## Installation
 
