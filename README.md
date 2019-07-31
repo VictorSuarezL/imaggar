@@ -7,6 +7,8 @@
 Status](https://travis-ci.org/VictorSuarezL/imaggar.svg?branch=master)](https://travis-ci.org/VictorSuarezL/imaggar)
 [![Codecov test
 coverage](https://codecov.io/gh/VictorSuarezL/imaggar/branch/master/graph/badge.svg)](https://codecov.io/gh/VictorSuarezL/imaggar?branch=master)
+[![Lifecycle:
+maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 <!-- badges: end -->
 
 # imaggar
