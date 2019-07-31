@@ -42,9 +42,7 @@ devtools::install_github("VictorSuarezL/imaggar")
 This is a basic example which shows you how to use `ima_tag` function:
 
 ```{r echo=FALSE, message=TRUE, warning=TRUE}
-i_read <- magick::image_read("https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg") 
-
-magick::image_scale(i_read, "300")
+magick::image_read("https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg") 
 ```
 
 With the code below we call IMAGGA API to tag the lion image:
@@ -69,5 +67,4 @@ tag_output <- tibble::as_tibble(tag_output)
 tag_output
 ```
 
-Enjoy it!
 

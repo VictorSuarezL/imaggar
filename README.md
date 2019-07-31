@@ -66,5 +66,3 @@ ima_tag(image_path, api_key = api_key, api_secret = api_secret)
     #>  9                   64.8 safari             ""          success    
     #> 10                   58.9 mammal             ""          success    
     #> # … with 71 more rows
-
-Enjoy it\!
